@@ -1,0 +1,40 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 400px;
+  height: 300px;
+  background-color: #eee;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.container-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete{
+  background-color: rgb(255, 41, 41);
+  border: 1px solid rgb(255, 41, 41);
+  padding: 4px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  color: #EEEEEE;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.delete:hover{
+  background-color: #EEEEEE;
+  color: rgb(255, 41, 41);
+  border: 1px solid rgb(255, 41, 41);
+}
+.item {
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: rgb(197, 197, 197);
+}
